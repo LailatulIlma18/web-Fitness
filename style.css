@@ -1,3 +1,152 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+html,body{
+    overflow-x: hidden;
+}
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+    .custome-bg{
+        background-color: #1391AD;
+    }
+    .nav-link{
+        color: #fff ;
+    }
+
+    .col {
+        font-size: 1.5rem;
+    }
+ 
+    .about {
+        color: white;
+        background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 1) 40%,  
+            #0a252f 40%
+        );
+    }
+    
+
+    .container {
+        width: 100%;
+        max-width: 1331px;
+        height: auto;
+        border-radius: 40px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .container .row .img-fluid {
+        max-width: 100%;
+        width: 1342px;
+        max-height: 473px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 24px;
+    }
+
+    .image1{
+        max-width: 100%;
+        width: 1342px;
+        max-height: 473px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 24px;
+    }
+
+    .image3 {
+        width: 436px;
+        height: 143px;
+        top: 2144px;
+        left: 96px;
+        border-radius: 214px;
+        object-fit: cover;
+    }
+
+    .img-custom {
+        max-width: 500px;
+        width: 25%;  
+        height: auto;  
+        border-radius: 50px; 
+    }
+    .text-img{
+        color: #fff;
+    }
+
+    .custom-img {
+        width: 302px;
+        height: 444px;
+        border-radius: 12px;
+        clip-path: polygon(0% 0%, 85% 0%, 100% 15%, 100% 100%, 0% 100%);
+        top: 2384px;
+        left: 1125px;
+    }
+
+    .contact-us {
+        font-family: 'PT Serif';
+    }
+    .btn-1{
+        background: linear-gradient(180deg, #24FFDD -28.46%, #1391AD 100%);
+        border-radius: 70px;
+    }
+
+    .footer-top {
+        background-color: #14A0A3;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10%;
+    }
+
+    .footer-top h2{
+        font-size: 1.8rem;
+        font-family: 'PT Serif';
+    }
+
+    .footer-top .btn {
+        font-size: 1.2rem;
+        border-radius: 10px;
+    }
+
+    .footer-bottom {
+        background-color:#0D5E60;
+        padding: 30px 0;
+    }
+
+    /* .footer-bottom .logo {
+        width: 10%;
+        margin-bottom: 10px;
+    } */
+
+    /* .footer-bottom .nav .nav-link {
+        color: white;
+        font-size: 1rem;
+        margin: 0 10px;
+        text-decoration: none;
+        transition: color 0.3 ease;
+    } */
+
+    /* .footer-bottom .nav .nav-link:hover{
+        color: #FFD700;
+    } */
+
+    .footer-line{
+        border: 0.5px solid rgba(255, 255, 255, 0.5);
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .footer-bottom p {
+        margin-top: 10px;
+        font-size: 0.9rem;
+    }
+    .footer-copyright{
+        color: white !important;
+        font-weight:300 ;
+        font-size: 16px;
+        
+    }
+    .footer-copyright strong{
+        font-weight: bold !important;
+    }
